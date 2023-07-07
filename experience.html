@@ -18,82 +18,6 @@
 	<title>Experience - Debajyoti Chakraborty.</title>
 </head>
 <body>
-<style>
-    .timeline {
-        border-left: 3px solid;
-        margin: 0 0;
-        position: relative;
-        padding: 16px 50px 10px 50px;
-        list-style: none;
-        text-align: left;
-    }
-
-    @media (max-width: 767px) {
-        .timeline {
-            max-width: 98%;
-            padding: 8px 25px 0 25px;
-        }
-    }
-
-    .timeline .event {
-        padding-bottom: 0;
-        margin-bottom: 0;
-        position: relative;
-    }
-
-    @media (max-width: 767px) {
-        .timeline .event {
-            padding-top: 30px;
-        }
-    }
-
-    .timeline .event:last-of-type {
-        padding-bottom: 0;
-        margin-bottom: 0;
-        border: none;
-    }
-
-    .timeline .event:before,
-    .timeline .event:after {
-        position: absolute;
-        display: block;
-        top: 0;
-    }
-
-    .timeline .event:before {
-        left: -207px;
-        content: attr(data-date);
-        text-align: right;
-        font-weight: bold;
-        font-size: 0.9em;
-        min-width: 120px;
-    }
-
-    @media (max-width: 767px) {
-        .timeline .event:before {
-            left: 0;
-            text-align: left;
-        }
-    }
-
-    .timeline .event:after {
-        -webkit-box-shadow: 0 0 0 3px;
-        box-shadow: 0 0 0 3px;
-        left: -55.8px;
-        background: #fff;
-        border-radius: 50%;
-        height: 9px;
-        width: 9px;
-        content: "";
-        top: 5px;
-    }
-
-    @media (max-width: 767px) {
-        .timeline .event:after {
-            left: -31.8px;
-        }
-    }
-</style>
 <!--Header-->
 <nav class="nav nav-pills navbar-expand-lg navbar-light bg-light justify-content-center border-bottom">
 	<a class="nav-link" href="/">Home</a>
@@ -102,158 +26,116 @@
 	<a class="nav-link" href="/projects">Projects</a>
 	<a class="nav-link" href="/research">Research</a>
 </nav>
+<style>
+	.card {
+		width: 32rem;
+	}
+</style>
 <!--Contents-->
 <div class="container-fluid">
 	<div class="col">
 		<!--UBS-->
-		<div class="row justify-content-center">
-			<div class="card px-0 my-4" style="width: 32rem;">
-				<div class="card-header" style="border-left: 3px solid;">
+		<div class="row mt-4 justify-content-center">
+			<div class="card border">
+				<div class="card-header">
 					<div class="d-flex align-items-center justify-content-between">
-						<span class="fs-4 font-weight-bold">UBS</span>
+						<span class="font-weight-bold">UBS Group AG</span>
 						<span class="font-weight-bold">Chicago, IL</span>
 					</div>
 				</div>
-				<div class="card-body m-0 p-0">
-					<ul class="timeline">
-						<li class="event" data-date="Jan 2023">
-							<h6 class="card-title font-weight-bold">Quantitative Developer Intern</h6>
-							<ul class="card-text">
-								<li class="fs-6 text-muted">Developed new and maintained existing indicators, helped upkeep the daily processes, and improved a data forecasting web app while growing an understanding of different investment strategies</li>
-								<li class="fs-6 text-muted">Prepared optimized and responsive Tableau reports making extensive use of actions, sets, parameters, calculated fields, and analytics</li>
-							</ul>
-						</li>
-						<li class="event" data-date="Jul 2022"></li>
+				<div class="card-body">
+					<h6 class="card-title font-weight-bold">Quantitative Developer Intern</h6>
+					<p class="card-subtitle text-muted">Jul 2022 - Jan 2023</p>
+					<ul class="card-text">
+						<li class="fs-6 text-muted"></li>
 					</ul>
 				</div>
-				<div class="card-footer" style="border-left: 3px solid;">
-					<a href="" class="badge badge-pill badge-secondary">Python</a>
-					<a href="" class="badge badge-pill badge-secondary">R</a>
-					<a href="" class="badge badge-pill badge-secondary">Microsoft SQL Server</a>
-					<a href="" class="badge badge-pill badge-secondary">Bloomberg Terminal</a>
-					<a href="" class="badge badge-pill badge-secondary">Microsoft Excel</a>
-					<a href="" class="badge badge-pill badge-secondary">Fixed Income</a>
-					<a href="" class="badge badge-pill badge-secondary">Tableau</a>
+				<div class="card-footer">
+					<a href="" class="badge badge-pill badge-secondary"></a>
 				</div>
 			</div>
 		</div>
 		<!--Northeastern University-->
-		<div class="row justify-content-center">
-			<div class="card px-0 my-4" style="width: 32rem;">
-				<div class="card-header" style="border-left: 3px solid;">
+		<div class="row mt-4 justify-content-center">
+			<div class="card border">
+				<div class="card-header">
 					<div class="d-flex align-items-center justify-content-between">
-						<span class="fs-4 font-weight-bold">Northeastern University</span>
+						<span class="font-weight-bold">Northeastern University</span>
 						<span class="font-weight-bold">Boston, MA</span>
 					</div>
 				</div>
-				<div class="card-body m-0 p-0">
-					<ul class="timeline">
-						<li class="event" data-date="Jul 2022">
-							<h6 class="card-title font-weight-bold">Graduate Teaching Assistant</h6>
-							<ul class="card-text">
-								<li class="fs-6 text-muted"></li>
-							</ul>
-						</li>
-						<li class="event" data-date="May 2022"></li>
+				<div class="card-body">
+					<h6 class="card-title font-weight-bold">Graduate Teaching Assistant</h6>
+					<p class="card-subtitle text-muted">May 2022 - Jul 2022</p>
+					<ul class="card-text">
+						<li class="fs-6 text-muted"></li>
 					</ul>
 				</div>
-				<div class="card-footer" style="border-left: 3px solid;">
-					<a href="" class="badge badge-pill badge-secondary">Java</a>
-					<a href="" class="badge badge-pill badge-secondary">Teaching</a>
-					<a href="" class="badge badge-pill badge-secondary">Grading</a>
-					<a href="" class="badge badge-pill badge-secondary">Problem Solving</a>
+				<div class="card-footer">
+					<a href="" class="badge badge-pill badge-secondary"></a>
 				</div>
 			</div>
 		</div>
 		<!--Tata Consultancy Services-->
-		<div class="row justify-content-center">
-			<div class="card px-0 my-4" style="width: 32rem;">
-				<div class="card-header" style="border-left: 3px solid;">
+		<div class="row mt-4 justify-content-center">
+			<div class="card border">
+				<div class="card-header">
 					<div class="d-flex align-items-center justify-content-between">
-						<span class="fs-4 font-weight-bold">Tata Consultancy Services</span>
+						<span class="font-weight-bold">Tata Consultancy Services</span>
 						<span class="font-weight-bold">Kolkata, WB</span>
 					</div>
 				</div>
-				<div class="card-body m-0 p-0">
-					<ul class="timeline">
-						<li class="event" data-date="Oct 2019">
-							<h6 class="card-title font-weight-bold">Assistant System Engineer</h6>
-							<ul class="card-text">
-								<li class="fs-6 text-muted">Development of an end-to-end solution for the implementation of a semantic document search engine</li>
-								<li class="fs-6 text-muted">API-based web forms with modifications to the underlying logic using Python, jQuery, Javascript, Google Maps Platform, etc.</li>
-								<li class="fs-6 text-muted">Multiple automation POCs involving Selenium, Django, BluePrism, UiPath, etc. were later implemented as client solutions</li>
-								<li class="fs-6 text-muted">Development of a medical devices complaints handling platform completely based on the AWS cloud platform and including support for MongoDB, natural language processing tools such as NLTK, etc.</li>
-							</ul>
-						</li>
-						<li class="event" data-date="Oct 2018"></li>
+				<div class="card-body">
+					<h6 class="card-title font-weight-bold">Assistant System Engineer</h6>
+					<p class="card-subtitle text-muted">Oct 2018 - Oct 2019</p>
+					<ul class="card-text">
+						<li class="fs-6 text-muted"></li>
 					</ul>
 				</div>
-				<div class="card-footer" style="border-left: 3px solid;">
-					<a href="" class="badge badge-pill badge-secondary">Django</a>
-					<a href="" class="badge badge-pill badge-secondary">Flask</a>
-					<a href="" class="badge badge-pill badge-secondary">REST APIs</a>
-					<a href="" class="badge badge-pill badge-secondary">Amazon Web Services (AWS)</a>
-					<a href="" class="badge badge-pill badge-secondary">MongoDB</a>
-					<a href="" class="badge badge-pill badge-secondary">MySQL</a>
-					<a href="" class="badge badge-pill badge-secondary">Selenium</a>
-					<a href="" class="badge badge-pill badge-secondary">Robotic Process Automation (RPA)</a>
-					<a href="" class="badge badge-pill badge-secondary">Blue Prism</a>
-					<a href="" class="badge badge-pill badge-secondary">UiPath</a>
-					<a href="" class="badge badge-pill badge-secondary">Python (Programming Language)</a>
-					<a href="" class="badge badge-pill badge-secondary">Java</a>
+				<div class="card-footer">
+					<a href="" class="badge badge-pill badge-secondary"></a>
 				</div>
 			</div>
 		</div>
 		<!--Hungry Bulb-->
-		<div class="row justify-content-center">
-			<div class="card px-0 my-4" style="width: 32rem;">
-				<div class="card-header" style="border-left: 3px solid;">
+		<div class="row my-4 justify-content-center">
+			<div class="card border">
+				<div class="card-header">
 					<div class="d-flex align-items-center justify-content-between">
-						<span class="fs-4 font-weight-bold">Hungry Bulb</span>
+						<span class="font-weight-bold">Hungry Bulb</span>
 						<span class="font-weight-bold">Kolkata, WB</span>
 					</div>
 				</div>
-				<div class="card-body m-0 p-0">
-					<ul class="timeline">
-						<li class="event" data-date="Mar 2017">
-							<h6 class="card-title font-weight-bold">Research And Development Engineer</h6>
-							<ul class="card-text">
-								<li class="fs-6 text-muted">Development of highly power-efficient Bluetooth beacons and multi-room wireless speakers and making them much better and budget-friendly than what is available now in the market</li>
-								<li class="fs-6 text-muted">Most of the work is based on IoT and electronics here, including the design of an optimized 3D printed speaker enclosure with an advanced understanding of acoustics</li>
-							</ul>
-						</li>
-						<li class="event" data-date="Dec 2016"></li>
+				<div class="card-body">
+					<h6 class="card-title font-weight-bold">Research And Development Engineer</h6>
+					<p class="card-subtitle text-muted">Dec 2016 - Mar 2017</p>
+					<ul class="card-text">
+						<li class="fs-6 text-muted"></li>
 					</ul>
 				</div>
-				<div class="card-footer" style="border-left: 3px solid;">
-					<a href="" class="badge badge-pill badge-secondary">3D Printing</a>
-					<a href="" class="badge badge-pill badge-secondary">3D Modeling</a>
-					<a href="" class="badge badge-pill badge-secondary">Audio Engineering</a>
-					<a href="" class="badge badge-pill badge-secondary">Python</a>
+				<div class="card-footer">
+					<a href="" class="badge badge-pill badge-secondary"></a>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 <!--Footer-->
-<footer class="navbar navbar-expand-lg navbar-light bg-light justify-content-center border-top">
-	<ul class="nav justify-content-center list-unstyled">
-		<li class="ms-3">
-			<a class="text-muted" target="_blank" href="mailto:chakraborty.de@northeastern.edu">
-				<svg class="bi" width="24" height="24"><i class="fa-solid fa-envelope"></i></svg>
+<footer class="bg-dark text-center">
+	<div class="container pt-4">
+		<section>
+			<a class="btn btn-outline-light btn-floating m-1" target="_blank" href="mailto:chakraborty.de@northeastern.edu">
+				<i class="fab fa-at"></i>
 			</a>
-		</li>
-		<li class="ms-3">
-			<a class="text-muted" target="_blank" href="https://github.com/chakrabortyde">
-				<svg class="bi" width="24" height="24"><i class="fa-brands fa-github"></i></svg>
+			<a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/chakrabortyde">
+				<i class="fab fa-github"></i>
 			</a>
-		</li>
-		<li class="ms-3">
-			<a class="text-muted" target="_blank" href="https://www.linkedin.com/in/debajyoti-c1/">
-				<svg class="bi" width="24" height="24"><i class="fa-brands fa-linkedin"></i></svg>
+			<a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/debajyoti-c1/">
+				<i class="fab fa-linkedin"></i>
 			</a>
-		</li>
-	</ul>
+		</section>
+	</div>
+	<div class="text-white text-center p-3"><i class="fa-regular fa-copyright"></i> 2023 Debajyoti Chakraborty</div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
