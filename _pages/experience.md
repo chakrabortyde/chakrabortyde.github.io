@@ -4,8 +4,12 @@ title: "Experience"
 permalink: /experience/
 author_profile: true
 redirect_from:
+  - /experiences/
   - /work-experience/
+  - /work-experiences/
 ---
+
+{% include base_path %}
 
 ## [Bose Corporation]()
 

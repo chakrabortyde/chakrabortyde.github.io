@@ -4,7 +4,10 @@ title: "Education"
 permalink: /education/
 author_profile: true
 redirect_from:
+  - /educations/
 ---
+
+{% include base_path %}
 
 ## [Northeastern University]()
 #### 360 Huntington Ave, Boston, MA 02115
