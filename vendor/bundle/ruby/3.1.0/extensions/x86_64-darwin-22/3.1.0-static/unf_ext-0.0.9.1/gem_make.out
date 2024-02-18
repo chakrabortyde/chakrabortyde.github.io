@@ -1,0 +1,17 @@
+current directory: /Users/urbancoder/Library/CloudStorage/OneDrive-NortheasternUniversity/Github/chakrabortyde.github.io/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+/Users/urbancoder/.rubies/ruby-3.1.3/bin/ruby -I /Users/urbancoder/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/urbancoder/Library/CloudStorage/OneDrive-NortheasternUniversity/Github/chakrabortyde.github.io/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20240217-59902-gjthfr sitelibdir\=./.gem.20240217-59902-gjthfr clean
+
+current directory: /Users/urbancoder/Library/CloudStorage/OneDrive-NortheasternUniversity/Github/chakrabortyde.github.io/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20240217-59902-gjthfr sitelibdir\=./.gem.20240217-59902-gjthfr
+compiling unf.cc
+linking shared-object unf_ext.bundle
+ld: warning: ignoring duplicate libraries: '-lc++'
+
+current directory: /Users/urbancoder/Library/CloudStorage/OneDrive-NortheasternUniversity/Github/chakrabortyde.github.io/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20240217-59902-gjthfr sitelibdir\=./.gem.20240217-59902-gjthfr install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20240217-59902-gjthfr
