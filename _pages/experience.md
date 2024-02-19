@@ -11,7 +11,7 @@ redirect_from:
 
 {% include base_path %}
 
-## [Bose Corporation]()
+## [Bose Corporation](https://www.bose.com/)
 
 #### 100 The Mountain Rd, Framingham, MA 01701
 
@@ -20,7 +20,7 @@ redirect_from:
 
 ---
 
-## [UBS Asset Management]()
+## [UBS Asset Management](https://www.ubs.com/)
 
 #### UBS Tower, 1 N Wacker Dr, Chicago, IL 60606
 
@@ -35,7 +35,7 @@ redirect_from:
 
 ---
 
-## [Khoury College of Computer Sciences]()
+## [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu/)
 
 #### 440 Huntington Avenue, 202 West Village H, Boston, MA 02115
 
@@ -48,7 +48,7 @@ redirect_from:
 
 ---
 
-## [Tata Consultancy Services (TCS)]()
+## [Tata Consultancy Services (TCS)](https://www.tcs.com/)
 
 #### Gitanjali Park, International Financial Hub (CBD), Kolkata, West Bengal 700156
 
@@ -67,7 +67,7 @@ redirect_from:
 
 ---
 
-## [Hungry Bulb]()
+## [Hungry Bulb](https://www.hungrybulb.com/)
 
 #### GH-9/144 Paschim Vihar, New Delhi, 110087
 

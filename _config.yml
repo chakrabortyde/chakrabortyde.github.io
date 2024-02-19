@@ -299,6 +299,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-remote-include
+  - jekyll-spaceship
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
