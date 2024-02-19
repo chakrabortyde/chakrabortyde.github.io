@@ -2,7 +2,7 @@
 title: "Eternal Labyrinths"
 description: "<ul><li>Created a graphical adventure game in Java Swing where users can navigate procedurally generated dungeons, tackle puzzles, amass rewards, and vanquish formidable monsters to reach goal position.</li></ul>"
 collection: projects
-permalink: /project/eternal-labyrinth
+permalink: /projects/eternal-labyrinth
 start_date: "September 2021"
 end_date: "December 2021"
 date: 2021-12-09
