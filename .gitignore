@@ -6,3 +6,5 @@ _site/
 # Ignore the Gemfile that is generated
 Gemfile.lock
 **.old.**
+.DS_Store
+**/.DS_Store
