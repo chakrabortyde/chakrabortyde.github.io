@@ -1,0 +1,226 @@
+%-------------------------
+% Author: Debajyoti Chakraborty
+% Website: https://github.com/chakrabortyde/chakrabortyde.github.io/tree/main/_latex
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[T1]{fontenc}
+
+\hypersetup{
+	colorlinks   = true, %Colours links instead of ugly boxes
+	urlcolor     = blue, %Colour for external hyperlinks
+	linkcolor    = blue, %Colour of internal links
+	citecolor   = red %Colour of citations
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\evensidemargin}{-.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+    \item\small{
+        \textbf{#1}{: #2 \vspace{-2pt}}
+    }
+}
+\newcommand{\resumeXpItem}[1]{
+	\item\small{
+		{#1 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textbf{#1}       & #2                 \\
+        \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%--------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%
+
+\begin{document}
+
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+	
+	\textbf{\href{https://chakrabortyde.github.io/}{\Large Debajyoti Chakraborty}} \\
+	{Boston, Massachusetts, USA} $\mid$ \href{tel:+1-857-272-9989}{+1-857-272-9989} $\mid$ \href{mailto:debajyoti.chakraborty16@gmail.com}{debajyoti.chakraborty16@gmail.com} \\
+	\href{https://github.com/chakrabortyde}{github.com/chakrabortyde} $\mid$ \href{https://www.linkedin.com/in/debajyoti-c1/}{linkedin.com/in/debajyoti-c1}
+	
+	% \href{https://github.com/chakrabortyde}{github.com/chakrabortyde} &
+	% \href{https://www.google.com/maps/@42.3399079,-71.0924641,15z}{Boston, MA}
+\end{tabular*}
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+	\resumeSubHeadingListStart
+	
+		\resumeSubheading
+		{Bose}{Framingham, MA}
+		{Data Engineer}{January 2024 -- Present}
+		\resumeItemListStart
+			\resumeXpItem
+				{Build and design ETL pipelines, spanning from terabyte-level data acquisition to ML model deployment and monitoring.}
+		\resumeItemListEnd
+		
+		\resumeSubheading
+		{UBS Asset Management}{Chicago, IL}
+		{Quantitative Developer}{July 2022 -- January 2023}
+		\resumeItemListStart
+			\resumeXpItem
+				{Developed a factor investing tool utilizing R with dplyr, tidyr, and ggplot2 to optimize weekly investment strategies in government bonds. Gathered insights from cross-functional teams and presented outcomes via Tableau reports.}
+			\resumeXpItem
+				{Resolved data discrepancies within the Fixed Income (FI) division’s performance forecasting web app using JavaScript, Jinja2, Flask, and Microsoft SQL Server, resulting in a substantial 20\% enhancement in accuracy and improved quarterly metrics.}
+		\resumeItemListEnd
+		
+		\resumeSubheading
+		{Northeastern University}{Boston, MA}
+		{Graduate Teaching Assistant}{May 2022 -- July 2022}
+		\resumeItemListStart
+			\resumeXpItem
+				{Led group discussions, graded assignments, and conducted office hours to educate over 100 students on OOP concepts.}
+		\resumeItemListEnd
+		
+		\resumeSubheading
+		{Freelance}{Remote}
+		{Software Engineer}{November 2019 -- June 2021}
+		\resumeItemListStart
+			\resumeXpItem
+				{Orchestrated a team of engineers during the pandemic to drive cloud adoption for local small businesses.}
+			\resumeXpItem
+				{Focused on assisting primarily ‘offline’ enterprises such as textile, hospitality, and medical establishments, extending support for essential functions like security, logistics and inventory management.}
+		\resumeItemListEnd
+		
+		\resumeSubheading
+		{Tata Consultancy Services}{India}
+		{Software Engineer}{October 2018 -- October 2019}
+		\resumeItemListStart
+			\resumeXpItem
+				{Oversaw the migration of a client’s legacy medical device complaint handling platform from on-premises to AWS, enabling multi-tenancy. Followed serverless best practices and orchestrated layers using IaC to deploy highly scalable systems.}
+			\resumeXpItem
+				{Engineered a document search engine for over 50 SOPs and SLAs utilizing Django, NLTK, OpenCV, and Tesseract-OCR. Implemented an automated support ticket scheduling system, leading to a 75\% reduction in resolution time.}
+			\resumeXpItem
+				{Directed a team of 2 engineers to develop conversational AI using jQuery, Bootstrap, ChatterBot, and MongoDB, automating Identity and Access Management (IAM) requests through analysis of 10,000+ support requests and conversation logs.}
+			\resumeXpItem
+				{Managed a product lifecycle management (PLM) team by coordinating daily standups and scrum meetings. Collaborated with Quality Assurance (QA) and DevOps teams to address issues and expedite cloud solution deployment.}
+			\resumeXpItem
+				{Transitioned RPA tasks to Beautiful Soup and Selenium, reducing costs by 50\%.}
+		\resumeItemListEnd
+		
+		\resumeSubheading
+		{Hungry Bulb}{India}
+		{Research and Development Engineer}{November 2016 -- April 2017}
+		\resumeItemListStart
+			\resumeXpItem
+				{Designed and manufactured a Bluetooth Low Energy (BLE) 3D-printed wireless speaker alongside an Android (Java) app.}
+		\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Northeastern University}{Boston, MA}
+{Master of Science in Computer Science; GPA: 3.9}{August 2021 -- December 2023}
+\resumeItemListStart
+\resumeItem{Coursework}
+{Programming Design Patterns and Paradigms, AI for Human-Computer Interaction, Foundations of AI, Machine Learning, Scalable Distributed Systems, Deep Learning.}
+\resumeItemListEnd
+\resumeSubheading
+{Netaji Subhash Engineering College}{India}
+{Bachelor of Technology in Computer Science \& Engineering}{August 2014 -- November 2018}
+\resumeItemListStart
+\resumeItem{Coursework}
+{Data Structure \& Algorithm, Data Base Management System, Software Development Life Cycle.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+	\resumeSubHeadingListStart
+		\resumeSubItem{\href{https://github.com/killerpanda101/ProfoundPDF}{ProFoundPDF: Chat with PDFs}}
+			{Built chat interface to segment multiple PDFs and created a vector store using OpenAI’s embedding model. Integrated GPT-3.5-turbo and implemented RAG to generate context-aware responses.}
+		\resumeSubItem{\href{https://expo.baulab.info/2023-Fall/chandrakommineni/}{Fine-tuning BERT}}
+			{Conducted ablation studies by fine-tuning BERT using HellaSwag, a MCQA dataset to reproduce benchmark results. Demonstrated 12\% degradation in performance with varying context, indicating a strong bias in transformer models.}
+		\resumeSubItem{\href{https://github.com/chakrabortyde/decentralized-chat}{Decentralized Chat}}
+			{Leveraged RMI to implement a distributed and encrypted peer-to-peer messaging app. Upgraded with group chat, vector-clock synchronization, fortified with Paxos consensus algorithm for fail-safety.}
+%		\resumeSubItem{\href{https://arxiv.org/abs/2307.11274}{Breast Cancer Detection}}
+%			{Compared popular classification methods with a Single View Single Lateral (SVSL) model for testing on a Kaggle competition dataset by RSNA, yielding an average validation case pF1 score of 0.56 across methods.}
+%		\resumeSubItem{\href{https://github.com/chakrabortyde/playyn}{Playyn - Online Music Store}}
+%			{Built an online music store, catering to an individual’s specific audio interests, by showing a detailed audio analysis and feature breakdown for tracks uploaded by artists and bands.}
+%		\resumeSubItem{\href{https://arxiv.org/abs/2307.11166}{RL in MuJoCo: Continuous control}}
+%			{Evaluated performance of AI/ML models like State–Action–Reward–State–Action (SARSA) and Q-learning (value-based), alongside DDPG, through comprehensive benchmarking.}
+%		\resumeSubItem{\href{https://github.com/chakrabortyde/eternal-labyrinth}{Eternal Labyrinth - Java-based adventure game}}
+%			{Created a graphical adventure game where users can navigate procedurally generated dungeons, tackle puzzles, amass rewards, and vanquish formidable monsters to reach goal position.}
+%		\resumeSubItem{\href{https://link.springer.com/chapter/10.1007/978-981-13-9042-5_62}{3D TD-U-Net}}
+%			{Proposed novel approach of using time-distributed (TD) architecture for U-Nets to segment multi-modal tumors from volumetric brain 3D MRI scans across 3 modalities with 0.58 testing DICE score in under 500ms.}
+%		\resumeSubItem{\href{https://docs.google.com/presentation/d/1wWlrl-6nVuNv_YIbc-k_QthzPksekqE9/edit?usp=sharing&ouid=114017657647498334204&rtpof=true&sd=true}{SBI - Automate for Bank}}
+%			{Designed a secure mobile banking app for SBI with modernized login via face recognition, scanning and submitting mandate forms/cheques, with automatic signature matching, and verification with over 94\% overall accuracy.}
+%		\resumeSubItem{\href{https://drive.google.com/file/d/0B-SyYE_cCFMbTU5PSGg4RkZKN3M/view?usp=sharing&resourcekey=0-K6pHY4o2TEB7GFdVE2kRGg}{Phototron - IITG Techniche}}
+%			{Created an autonomous robot that tracks and catches balls while they fall through an incline.}
+	\resumeSubHeadingListEnd\texttt{}
+
+%--------PROGRAMMING SKILLS------------
+\section{Technical Skills}
+	\resumeSubHeadingListStart
+		\resumeSubItem{Programming Languages: }
+			{C, Java, Python, R, HTML/CSS, TypeScript, SQL, NoSQL}
+		\resumeSubItem{API \& Databases/Storage: }
+			{REST API, S3, RDS, PostgreSQL, DynamoDB, MongoDB, Snowflake}
+		\resumeSubItem{Amazon Web Services: }
+			{EC2, Lambda, Step Functions, SQS, CloudFront, Route 53, Cognito, STS, SES, ECS, ECR, Glue}
+		\resumeSubItem{Other Tools and Technologies: }
+			{GitHub CI/CD, Docker, dbt, Databricks, Airflow, Azure AD, Power Apps, Jira}
+		\resumeSubItem{Certifications: }
+			{OCA - Java SE 8 Programmer, IBM - Applied AI with Deep Learning}
+	\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
